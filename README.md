@@ -1,164 +1,198 @@
-# Computer Vision Project
+<div align="center">
 
-A complete collection of four Computer Vision coursework assignments covering transfer learning, CNNs, data augmentation, object detection, and image transformation.
+# 👁️ Computer Vision Project
 
-## Student Information
+### A Deep Learning & Computer Vision Assignment Collection
 
-- **Student:** Zehra Nisar
-- **Program:** BS Computer Science
-- **Course:** Computer Vision
-- **Repository:** Computer-Vision-Project
+<p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=6C63FF&center=true&vCenter=true&width=760&lines=Transfer+Learning+%7C+CNNs+%7C+Data+Augmentation;YOLOv7+Object+Detection+%7C+Image+Transformation;Built+with+Python+%7C+TensorFlow+%7C+PyTorch" alt="Typing animation"/>
+</p>
 
-## Project Overview
+<p>
+<img src="https://img.shields.io/badge/Computer%20Vision-Deep%20Learning-6C63FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/BS%20Computer%20Science-Student-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Assignments-04-8B5CF6?style=for-the-badge"/>
+</p>
 
-This repository contains four Computer Vision assignments. Each assignment is organized separately with its own notebook, documentation, and result files.
+**Transfer Learning • CNNs • Data Augmentation • Object Detection • Image Transformation**
 
-| Assignment | Topic | Main Concepts |
-|---|---|---|
-| **Assignment 1** | VGG16 vs MobileNetV2 — Transfer Learning | Transfer Learning, CNNs, Image Classification, Model Comparison |
-| **Assignment 2** | CNN with Data Augmentation | CNN, Augmentation, Scaling, Rotation, Translation |
-| **Assignment 3** | YOLOv7 Object Detection | Object Detection, YOLOv7, PyTorch, Bounding Boxes |
-| **Assignment 4** | CNN Data Transformation | Scaling, Rotation, Translation, CNN Preprocessing |
+</div>
 
-## Repository Structure
+---
+
+## ✦ About
+
+**Computer Vision Project** is a collection of four practical Computer Vision assignments developed as part of BS Computer Science coursework.
+
+The repository covers deep-learning workflows from **image classification and transfer learning** to **data augmentation, object detection, and image transformation**.
+
+Each assignment is organized independently with its notebook, documentation, and result visualizations.
+
+---
+
+## 🚀 Assignments
+
+| # | Assignment | Main Focus |
+|:---:|---|---|
+| 🧠 **01** | **VGG16 vs MobileNetV2 — Transfer Learning** | Image classification & pretrained CNN comparison |
+| 🔄 **02** | **CNN with Data Augmentation** | Augmentation, CNN training & visualization |
+| 🎯 **03** | **YOLOv7 Object Detection** | Object detection & bounding boxes |
+| 🖼️ **04** | **CNN Data Transformation** | Scaling, rotation & translation |
+
+### 🧠 Assignment 01
+Comparison of **VGG16** and **MobileNetV2** using transfer learning. The implementation covers preprocessing, binary classification, training curves, confusion matrices, and model comparison.
+
+**Dataset:** Potato Leaf — Healthy and Fungi.
+
+### 🔄 Assignment 02
+CNN experimentation with image augmentation using selected **CIFAR-10** images. Transformations include scaling/zoom, rotation, width shift, and height shift.
+
+### 🎯 Assignment 03
+Object-detection workflow using **YOLOv7** and **PyTorch**, including detection visualization and a performance-summary presentation.
+
+### 🖼️ Assignment 04
+Demonstration of fundamental Computer Vision transformations: **scaling, rotation, and translation**, with visual comparison of transformed samples.
+
+---
+
+## ⚡ Tech Stack
+
+<div align="center">
+
+### Languages & Tools
+
+<img src="https://skillicons.dev/icons?i=python,jupyter,git,github" />
+
+### Deep Learning
+
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Keras-Deep%20Learning-D00000?style=for-the-badge&logo=keras&logoColor=white"/>
+<img src="https://img.shields.io/badge/YOLOv7-Object%20Detection-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NumPy-Scientific%20Computing-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+
+<br>
+
+<img src="https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Scikit--learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pillow-Image%20Processing-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+
+</div>
+
+---
+
+## 📁 Repository Structure
 
 ```text
 Computer-Vision-Project/
-├── Assignment-1/
-│   ├── Assignment-1.ipynb
-│   ├── README.md
-│   └── results/
-│       ├── training_curves.png
-│       └── confusion_matrices.png
-├── Assignment-2/
-│   ├── Assignment-2.ipynb
-│   ├── README.md
-│   └── results/
-│       ├── baseline_images.png
-│       ├── augmented_samples.png
-│       └── accuracy_loss_comparison.png
-├── Assignment-3/
-│   ├── Assignment-3.ipynb
-│   ├── README.md
-│   └── results/
-│       ├── detection_result.png
-│       └── performance_summary.png
-├── Assignment-4/
-│   ├── Assignment-4.ipynb
-│   ├── README.md
-│   └── results/
-│       ├── transformed_samples.png
-│       └── comparison_plots.png
-└── README.md
+│
+├── 📂 Assignment-1/
+│   ├── 📓 Assignment-1.ipynb
+│   ├── 📄 README.md
+│   └── 📂 results/
+│       ├── 🖼️ training_curves.png
+│       └── 🖼️ confusion_matrices.png
+│
+├── 📂 Assignment-2/
+│   ├── 📓 Assignment-2.ipynb
+│   ├── 📄 README.md
+│   └── 📂 results/
+│       ├── 🖼️ baseline_images.png
+│       ├── 🖼️ augmented_samples.png
+│       └── 🖼️ accuracy_loss_comparison.png
+│
+├── 📂 Assignment-3/
+│   ├── 📓 Assignment-3.ipynb
+│   ├── 📄 README.md
+│   └── 📂 results/
+│       ├── 🖼️ detection_result.png
+│       └── 🖼️ performance_summary.png
+│
+├── 📂 Assignment-4/
+│   ├── 📓 Assignment-4.ipynb
+│   ├── 📄 README.md
+│   └── 📂 results/
+│       ├── 🖼️ transformed_samples.png
+│       └── 🖼️ comparison_plots.png
+│
+└── 📄 README.md
 ```
 
-## Assignment Details
+---
 
-### Assignment 1 — VGG16 vs MobileNetV2
+## 🧩 Core Concepts
 
-This assignment focuses on transfer learning for image classification using two ImageNet-pretrained CNN architectures: **VGG16** and **MobileNetV2**.
+| Concept | Application |
+|---|---|
+| **Transfer Learning** | Reusing knowledge from pretrained CNNs |
+| **CNNs** | Image feature extraction and classification |
+| **Data Augmentation** | Increasing training-data diversity |
+| **Image Transformation** | Scaling, rotation and translation |
+| **Object Detection** | Locating objects with bounding boxes |
+| **Model Evaluation** | Curves, matrices and visual comparisons |
 
-The implementation covers image preprocessing, model configuration, training, evaluation, confusion matrices, training curves, and model comparison.
+---
 
-The available dataset used for the implementation is a small **Potato Leaf** dataset with two classes:
+## 📊 Results
 
-- Healthy
-- Fungi
+| Assignment | Included Results |
+|:---:|---|
+| **01** | Training curves + confusion matrices |
+| **02** | Baseline samples + augmented samples + accuracy/loss comparison |
+| **03** | Detection visualization + performance summary |
+| **04** | Transformed samples + comparison plots |
 
-**Key concepts:** Transfer Learning, VGG16, MobileNetV2, Image Preprocessing, Binary Classification, Confusion Matrix, Training Curves, Model Comparison.
+---
 
-### Assignment 2 — CNN with Data Augmentation
-
-This assignment demonstrates how image augmentation can increase training-data diversity for a CNN.
-
-The implementation uses selected CIFAR-10 images and applies transformations including scaling/zoom, rotation, width shift, and height shift. The results are visualized using sample images and accuracy/loss comparison plots.
-
-**Key concepts:** CNN, Data Augmentation, Scaling, Rotation, Translation, Training Curves, Accuracy and Loss.
-
-### Assignment 3 — YOLOv7 Object Detection
-
-This assignment focuses on object detection using **YOLOv7** with a PyTorch-based workflow.
-
-The assignment demonstrates the YOLO object-detection workflow and includes detection visualization and a performance-summary result.
-
-**Key concepts:** Object Detection, YOLOv7, PyTorch, Bounding Boxes, Detection Workflow.
-
-### Assignment 4 — CNN Data Transformation
-
-This assignment demonstrates common image transformations used in Computer Vision and CNN preprocessing.
-
-The main transformations are:
-
-- Scaling
-- Rotation
-- Translation
-
-The transformed samples and comparison plots are included in the `results` folder.
-
-**Key concepts:** Image Transformation, Scaling, Rotation, Translation, CNN Preprocessing, Visual Comparison.
-
-## Technologies Used
-
-- Python
-- Jupyter Notebook
-- TensorFlow / Keras
-- PyTorch
-- YOLOv7
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
-- Pillow
-
-## How to Use
-
-Clone the repository:
+## 🛠️ Getting Started
 
 ```bash
 git clone https://github.com/zehranisar/Computer-Vision-Project.git
 cd Computer-Vision-Project
 ```
 
-Open the required assignment folder and launch its Jupyter Notebook using Jupyter Notebook, JupyterLab, or VS Code.
+Open the required `.ipynb` notebook in **VS Code, Jupyter Notebook, or JupyterLab**, install its required dependencies, and run the notebook cells in order.
 
-Install the dependencies required by the individual notebook and run its cells in order.
+---
 
-## Results
+## 🎓 Learning Outcomes
 
-Each assignment keeps its results separately:
-
-- **Assignment 1:** Training curves and confusion matrices
-- **Assignment 2:** Baseline images, augmented samples, and accuracy/loss comparison
-- **Assignment 3:** Object detection result and performance summary
-- **Assignment 4:** Transformed samples and comparison plots
-
-## Learning Outcomes
-
-This project demonstrates practical understanding of:
+This project provides practical experience with:
 
 - CNN-based image processing
-- Transfer learning
+- Transfer learning with pretrained models
 - Image classification
 - Data augmentation
 - Image transformation
-- Object detection
+- YOLO-based object detection
+- Bounding-box visualization
 - Model evaluation and visualization
-- Deep learning frameworks
-- Computer Vision experimentation
+- TensorFlow/Keras and PyTorch workflows
+- Organized Computer Vision experimentation
 
-## Notes
+---
 
-- Each assignment is maintained in its own folder.
-- Assignment-specific documentation is available inside each assignment folder.
-- Dataset files are not included in the repository where they are not required for submission.
-- Result images are stored in the corresponding `results` directories.
-- The individual notebooks contain the implementation workflow for each assignment.
+## 👩‍💻 Author
 
-## Author
+<div align="center">
 
-**Zehra Nisar**  
-BS Computer Science
+### **Zehra Nisar**
 
-## Repository
+**BS Computer Science**
 
-[Computer-Vision-Project](https://github.com/zehranisar/Computer-Vision-Project)
+Computer Vision • Deep Learning • Artificial Intelligence
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ Computer Vision • Deep Learning • Practical Implementation
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=110&section=footer"/>
+
+</div>
